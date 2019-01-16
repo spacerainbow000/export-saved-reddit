@@ -56,6 +56,9 @@ To install without git, [download the source code from GitHub](https://github.co
       -all, --all           get upvoted, saved, comments and submissions
       -V, --version         get program version.
 
+## get-post-contents
+I included a quick-and-dirty shell script that will pull a JSON backup of all your saved posts, and create a new HTML file that includes a link to the JSON backup. it isn't pretty and uses a browser user-agent, as well as going one-by-one, so be prepared to let it sit for a while
+
 ## Updating
 To update the script to the latest version, enter the `export-saved-reddit` folder in your shell/command prompt and enter the following:
 
